@@ -4,6 +4,11 @@ html {
 	background-image: url("../img/background.gif");
 }
 
+sitename {
+	font-family: operational-amplifier;       /*使用引入的外部字体*/
+	font-size: 120px;
+	letter-spacing:5px;
+}
 body {
 	background-color: rgba(0,0,0,0.97);
 	color: rgba(255,255,255,0.7);
@@ -13,6 +18,7 @@ body {
 	border: 1px dashed rgba(255,255,255,0.7);
 	font-family: "Open Sans";
 }
+
 
 header, nav, main, footer {
 	margin: 15px;
@@ -81,12 +87,17 @@ pre {
 
 img, main iframe {
 	width: 80%;
-	margin-left: 10%;
-	border: 1px dashed rgba(255,255,255,0.5);
+	margin-left: 0%;
+
 }
 
 main header {
 	text-align: center;
 	padding-bottom: 15px;
 	border: 0;
+}
+
+@font-face{
+	font-family: operational-amplifier;     /*自定义的字体名*/
+	src:url('../font/operational-amplifier/operational amplifier.ttf');   /*引入字体包*/
 }
